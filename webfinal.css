@@ -1,26 +1,26 @@
 
         #portfolioCarousel {
-            max-width: 80%; /* Ajusta el tamaño máximo del carrusel */
-            margin: 0 auto; /* Centra el carrusel */
+            max-width: 80%; 
+            margin: 0 auto; 
         }
 
         #portfolioCarousel .carousel-inner {
-            max-height: 400px; /* Ajusta la altura máxima */
+            max-height: 400px; 
         }
 
         #portfolioCarousel .carousel-item img {
-            object-fit: cover; /* Hace que la imagen se ajuste al tamaño sin deformarse */
-            height: 100%; /* Ajusta la altura para mantener la proporción */
+            object-fit: cover; 
+            height: 100%; 
         }
 
-        /* Estilo personalizado para las flechas de navegación */
+        
         .carousel-control-prev-icon,
         .carousel-control-next-icon {
-            background-color: black; /* Cambia el color de las flechas a negro */
+            background-color: black;
         }
 
-        /* Opcionalmente, puedes cambiar el color de las flechas cuando el mouse pasa sobre ellas */
+        
         .carousel-control-prev-icon:hover,
         .carousel-control-next-icon:hover {
-            background-color: #333; /* Color ligeramente más oscuro al pasar el mouse */
+            background-color: #333; 
         }
